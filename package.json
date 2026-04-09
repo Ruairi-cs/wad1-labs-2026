@@ -1,0 +1,30 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "Simple playlist maker app using Node and Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "app"
+  ],
+  "author": "Ruairi O'Donoghue",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.6",
+    "fund": "^1.0.0",
+    "lowdb": "^7.0.1",
+    "uuid": "^13.0.0",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
