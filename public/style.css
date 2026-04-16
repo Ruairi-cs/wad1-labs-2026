@@ -3,7 +3,9 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -12,14 +14,21 @@ body {
   margin: 2em;
   background-color: lightgrey;
 }
+
 .editSubmit {
   border: none;
   background: none;
 }
+
 .editSubmit:hover {
   color: blue;
   cursor: pointer;
 }
+
 .hide {
   display: none;
+}
+
+table {
+  margin: auto;
 }
